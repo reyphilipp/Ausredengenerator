@@ -13,7 +13,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val generatorAusrede = GeneratorAusrede()
-
         //First Startup
         txtAusrede.text = generatorAusrede.buildedSentence()
         //Button
